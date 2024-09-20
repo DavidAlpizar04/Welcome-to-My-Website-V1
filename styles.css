@@ -1,0 +1,194 @@
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url(https://images.pexels.com/photos/355747/pexels-photo-355747.jpeg?cs=srgb&dl=pexels-pixabay-355747.jpg&fm=jpg);
+    background-size: cover; /* Hace que la imagen cubra toda la pantalla */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; 
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Sección Intro (Inicio) */
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex: 1;
+}
+
+h1 {
+    font-size: 3em;
+    color: #333;
+}
+
+.bloque-imagen img {
+    width: 350px;
+    border: 2.3px solid #333;
+    border-radius: 14px;
+    margin-bottom: 40px;
+}
+
+.txt-inicio {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 6.5PX;
+    border-radius: 8px;
+    border: 2px solid #333;
+}
+
+.boton-proyectos {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 150px;
+    margin: 0 auto;
+    transition: transform 0.3s ease; 
+    border: 1.5px solid #ccc;
+    box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.3);
+}
+
+.boton-proyectos:hover {
+    transform: scale(1.2);
+}
+
+/* Proyectos */
+.projects {
+    flex: 1;
+    margin: 50px;
+}
+
+.project-item {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 14PX;
+    color: #333;
+    BORDER: 2.3px solid #333
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    font-size: 40PX;
+}
+
+/* Contacto */
+.contact {
+    flex: 1;
+    margin: 50px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input, textarea {
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+button {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 150px;
+    margin: 0 auto;
+    transition: transform 0.3s ease; 
+    border: 1.5px solid #ccc;
+    box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.3);
+}
+
+button:hover {
+    background-color: #555;
+    transform: scale(1.2);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    margin-top: auto;
+}
+
+/* Zoom links */
+.zoom-link {
+    transition: transform 0.3s ease;
+}
+
+.zoom-link:hover {
+    transform: scale(1.2);
+}
+
+.btn{
+    color: whitesmoke;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+
+.formulario{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+#email, #name, #message{
+    background-color: #DDD;
+    border: 2.5px solid #333;
+    border-radius: 14PX;
+}
+
+input, textarea{
+    font-family:Arial, Helvetica, sans-serif ;
+    color: #333;
+    font-weight: bold;
+}
